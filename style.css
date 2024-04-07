@@ -1,56 +1,68 @@
 *{
+    font-family: tahoma;
     box-sizing: border-box;
 }
 body{
-    padding:0px;
-    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 275px;
+    margin: 0px;
+    background-image: linear-gradient(to bottom , #B3b4b6,#00416A);
+    background-repeat: no-repeat;
 }
 .calc{
     margin: auto;
     width: 400px;
-    background-color: black;
-    color: white;
+    background-image: linear-gradient( bottom , #B3b4b6,#00416A);
+    border-radius: 15px;
+    border-color: #8fa9b3;
+    box-shadow: 0 3px 15px 0 #00416a;
 }
 .screen{
-    color: white;
     font-size: 40px;
-    font-family: "Courier New", Courier, monospace;
+    font-family: Tahoma;
     text-align: right;
+    color: white;
     padding: 20px 5px;
-  }
+}
 .cal-button{
-    background-color: azure;
-    color: black;
-    height: 100px;
+    background-color:#8fa9b3;
     width: 24.5%;
-    border:none;
-    border-radius: 5%;
+    height: 100px;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 16px 0 gray;
     font-size: 40px;
     cursor: pointer;
 }
 .cal-button:hover{
-    background-color: silver;
-}
-.cal-button:active{
-    background-color: bisque;
+    background-color: rgb(226, 222, 222);
+    color: black;
 }
 .duble{
     width: 50%;
+    border-radius: 30px;
+}
+
+.duble:hover{
+    color: red;
+    background-color: #adb4c4;
 }
 .triple{
     width: 75%;
+    border-radius: 30px;
 }
 .cal-button:last-child{
-    background-color: gray;
+    background-color: #e09f1f;
     color: white;
 }
 .cal-button:last-child:hover{
-    background-color: #98a1f1;
-    color: blue;
+    background-color: #ebe5da;
+    color: #e09f1f;
 }
 .cal-button:last-child:active{
-    background-color: rgb(250, 244, 237);
-    color: black;
+    background-color: #ebe5da;
+    color: #e09f1f;
 }
 .cal-button-row{
     display: flex;
